@@ -1,0 +1,231 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+ul,
+li {
+  text-decoration: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+.white-sheet {
+  display: flex;
+  max-width: 1600px;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-section {
+  padding: 2.5vh;
+  padding-bottom: 0;
+}
+
+.section {
+  padding: 2vh;
+  padding-bottom: 0;
+  padding-top: 1.5vh;
+}
+
+.subsection {
+  list-style: none;
+  margin-bottom: 1vw;
+}
+
+.subsection-item {
+  margin-bottom: 1vw;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 27vh;
+}
+
+.h1-title {
+  display: block;
+  font-size: 5vh;
+  text-transform: uppercase;
+  margin-bottom: 2vh;
+}
+
+.h2-title {
+  display: block;
+  font-size: 2.5vh;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  color: teal;
+}
+
+.h2-underline {
+  border-bottom: 3px solid teal;
+}
+
+.h3-title {
+  display: block;
+  font-size: 2vh;
+  text-transform: uppercase;
+  margin-bottom: 0.5vh;
+}
+
+.h4-title {
+  display: block;
+  font-size: 1.5vh;
+}
+
+.company {
+  color: orange;
+}
+
+.text {
+  margin-top: 0.25vh;
+  margin-bottom: 0.5vh;
+}
+
+.job {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2vh;
+  color: teal;
+}
+
+.location {
+  font-size: 1.2vh;
+}
+
+.text-accent {
+  font-weight: 600;
+  font-size: 1.5vh;
+  font-style: italic;
+}
+
+.square-style {
+  list-style: square;
+  padding-left: 1rem;
+}
+
+.link-set {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.contact {
+  font-weight: 300;
+}
+
+.link-bordered {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  border: 2px solid teal;
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+}
+
+.link-bordered:hover,
+.link-bordered:focus {
+  background-color: teal;
+  color: white;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.button {
+  width: 130px;
+  padding: 0.25rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.aside-section {
+  width: 25rem;
+  padding: 2.5rem;
+  background-color: #eeeeee;
+}
+
+.aside-img {
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+}
+
+.aside-inner {
+  padding: 1vh 0;
+}
+
+.aside-item {
+  margin-bottom: 2.5vh;
+}
+
+.aside-subsection li {
+  margin-bottom: 0.5vh;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: teal;
+  cursor: pointer;
+  fill: teal;
+}
+
+.contact-icon {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin-right: 0.5vw;
+}
