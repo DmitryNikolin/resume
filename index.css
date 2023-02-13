@@ -66,7 +66,11 @@ img {
 .hero-section {
   display: flex;
   align-items: center;
-  height: 12rem;
+  height: 15rem;
+}
+
+.work-experience {
+  list-style: none;
 }
 
 .h1-title {
@@ -142,7 +146,7 @@ img {
 .link {
   color: inherit;
   background-color: transparent;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .contact {
